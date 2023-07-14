@@ -20,9 +20,7 @@
                         <small>is available for sale</small>
                     </h1>
                     <!--<div class="pt-5">-->
-                    <!--    <label for="name">-->
-                    <!--        <a class="btn text-white bg-green btn-lg">Buy now for &euro; 250,-</a>-->
-                    <!--    </label>-->
+                    <!--    <a class="btn text-white bg-green btn-lg">Buy now for &euro; 250,-</a>-->
                     <!--</div>-->
                     <div class="row d-md-flex text-center justify-content-center text-primary action-icons">
                         <div class="col-sm-4">
@@ -45,14 +43,14 @@
                     <div class="container">
                         <div class="row height-100">
                             <div class="col-sm-10 offset-sm-1 mt-2">
-                                <form action="https://formspree.io/f/xleyekrz" method="post">
+                                <form class="vMiddle" action="https://formspree.io/f/xleyekrz" method="post">
                                     <h2 class="text-primary">Interested in this domain?</h2>
                                     <hr/>
                                     <div class="form-group">
                                         <input type="text"
                                                name="name"
                                                class="form-control"
-                                               placeholder="Full name (Required)"
+                                               placeholder="Full name *"
                                                required>
                                     </div>
                                     <div class="row">
@@ -61,7 +59,7 @@
                                                 <input type="email"
                                                        name="email"
                                                        class="form-control"
-                                                       placeholder="Email (Required)"
+                                                       placeholder="Email *"
                                                        required>
                                             </div>
                                         </div>
@@ -70,7 +68,7 @@
                                                 <input type="tel"
                                                        name="phone"
                                                        class="form-control"
-                                                       placeholder="Phone number (Required)"
+                                                       placeholder="Phone number *"
                                                        required
                                                        minlength="10">
                                             </div>
@@ -81,13 +79,13 @@
                                                name="price"
                                                class="form-control"
                                                min="0"
-                                               placeholder="Offer price in EUR? (Required)"
+                                               placeholder="Offer price in EUR *"
                                                required>
                                     </div>
                                     <div class="form-group">
                                         <textarea name="message"
                                                   class="form-control"
-                                                  placeholder="Message (optional)"></textarea>
+                                                  placeholder="Message"></textarea>
                                     </div>
                                     <input id="domain-input" name="domain" type="hidden">
                                     <button type="submit" class="btn text-white btn-lg bg-primary btn-block">
