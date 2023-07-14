@@ -8,13 +8,13 @@ body {
     height: 100%;
 }
 body{
-    font-family: 'Mukta Mahee', sans-serif;
+    font-family: sans-serif;
     color: #222;
     line-height: 1.5;
     font-size: 1.125rem;
 }
 button, input, optgroup, select, textarea{
-    font-family: 'Mukta Mahee', sans-serif;
+    font-family: sans-serif;
 }
 .brand-logo{
     width: 180px;
